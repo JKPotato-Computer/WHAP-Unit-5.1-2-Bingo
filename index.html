@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bingo</title>
+	<script src="js/main.js" defer></script>
+	<link href="style.css" rel="stylesheet" />
+</head>
+<body onload="main.init();">
+	<span id="questionBox">Question</span>
+	<br>
+	<span id="answerBox">Answer</span>
+	<br>
+	<button id="revealAnswer">Reveal Answer</button>
+	<button id="nextQuestion" onclick="main.chooseRandomQuestion();">Next Question</button>
+	<button id="reset" onclick="main.resetBingo();">Reset</button>
+</body>
+</html>
